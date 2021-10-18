@@ -1,0 +1,22 @@
+.App {
+  display: flex;
+}
+
+.col-left {
+  margin-right: 40px;
+}
+
+ul {
+  list-style: none;
+}
+
+.list__item {
+  padding: 10px;
+  border: 1px solid gray;
+  cursor: pointer;
+  min-width: 300px
+}
+
+.list__item + .list__item {
+  border-top: none;
+}
